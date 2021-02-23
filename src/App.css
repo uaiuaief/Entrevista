@@ -62,7 +62,7 @@ a {
 
 #topbar .rightside {
   background-color: var(--secondary-color);
-  flex-grow: 4;
+  flex-grow: 5;
   text-align: center;
 }
 
@@ -106,6 +106,7 @@ a {
 #banner .section-inner {
   width: 55%;
   margin: auto;
+  max-width: 1200px;
 }
 
 .arrows {
@@ -152,6 +153,7 @@ strong {
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  max-width: 1200px;
 }
 
 #logo {
@@ -189,6 +191,7 @@ strong {
 .showcase-inner {
   width: 55%;
   margin: auto;
+  max-width: 1000px;
 }
 
 .showcase-section-1 .showcase-inner {
@@ -366,6 +369,7 @@ img.plus-icon {
 .CTA-inner {
   width: 45%;
   margin: auto;
+  max-width: 1200px;
 }
 
 #CTA .text {
