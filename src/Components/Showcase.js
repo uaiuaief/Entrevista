@@ -11,13 +11,13 @@ class Showcase extends Component {
                         </h1>
                         <div id="cards-top-half">
                             <div className="img-container">
-                                <img src="/images/card_image.png"></img>
+                                <img src="./images/card_image.png"></img>
                             </div>
                             <div className="img-container">
-                                <img src="/images/card_image.png"></img>
+                                <img src="./images/card_image.png"></img>
                             </div>
                             <div className="img-container">
-                                <img src="/images/card_image.png"></img>
+                                <img src="./images/card_image.png"></img>
                             </div>
                         </div>
                     </div>
@@ -31,7 +31,7 @@ class Showcase extends Component {
                                 <p>Tesla. Inc. (antigamente Tesla Motors. Inc.), é uma empresa automotiva e de armazenamento de energia norte</p>
                                 <a href="#" className="see-more">
                                     Saiba Mais
-                                    <img className="invert" src="/images/right_arrow.png"></img>
+                                    <img className="invert" src="./images/right_arrow.png"></img>
                                 </a>
                             </div>
                             <div className="card-text selected">
@@ -39,7 +39,7 @@ class Showcase extends Component {
                                 <p>Tesla. Inc. (antigamente Tesla Motors. Inc.), é uma empresa automotiva e de armazenamento de energia norte</p>
                                 <a href='#' className="see-more">
                                     Saiba Mais
-                                    <img className="invert" src="/images/right_arrow.png"></img>
+                                    <img className="invert" src="./images/right_arrow.png"></img>
                                 </a>
                             </div>
                             <div className="card-text">
@@ -47,7 +47,7 @@ class Showcase extends Component {
                                 <p>Tesla. Inc. (antigamente Tesla Motors. Inc.), é uma empresa automotiva e de armazenamento de energia norte</p>
                                 <a href="#" className="see-more">
                                     Saiba Mais
-                                    <img className="invert" src="/images/right_arrow.png"></img>
+                                    <img className="invert" src="./images/right_arrow.png"></img>
                                 </a>
                             </div>
                         </div>
@@ -60,36 +60,36 @@ class Showcase extends Component {
                         <div className="achievements flex">
                             <div className="flex-item">
                                 <div className="icon-wrapper">
-                                    <img className="c1" src="/images/light_icon.png"></img>
+                                    <img className="c1" src="./images/light_icon.png"></img>
                                 </div>
                                 <h1>
                                     5.000
                                     <span>
-                                        <img className="plus-icon" src="/images/plus_icon.png"></img>
+                                        <img className="plus-icon" src="./images/plus_icon.png"></img>
                                     </span>
                                 </h1>
                                 <p>Projetos personalizados realizados </p>
                             </div>
                             <div className="flex-item">
                                 <div className="icon-wrapper">
-                                    <img className="c2" src="/images/grid_icon.png"></img>
+                                    <img className="c2" src="./images/grid_icon.png"></img>
                                 </div>
                                 <h1>
                                     25.000
                                     <span>
-                                        <img className="plus-icon" src="/images/plus_icon.png"></img>
+                                        <img className="plus-icon" src="./images/plus_icon.png"></img>
                                     </span>
                                 </h1>
                                 <p>Metros de telas instalados </p>
                             </div>
                             <div className="flex-item">
                                 <div className="icon-wrapper">
-                                    <img className="c3" src="/images/window_icon.png"></img>
+                                    <img className="c3" src="./images/window_icon.png"></img>
                                 </div>
                                 <h1>
                                     10.000
                                     <span>
-                                        <img className="plus-icon" src="/images/plus_icon.png"></img>
+                                        <img className="plus-icon" src="./images/plus_icon.png"></img>
                                     </span>
                                 </h1>
                                 <p>Janelas protegidas </p>
@@ -100,7 +100,7 @@ class Showcase extends Component {
 
                 <div id="CTA"
                     style={{
-                        backgroundImage: 'url(/images/secondary_banner.png)',
+                        backgroundImage: 'url(./images/secondary_banner.png)',
                         backgroundSize: 'cover'
                     }}>
                     <div className="CTA-inner">

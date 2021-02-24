@@ -7,14 +7,14 @@ class Banner extends Component {
         return (
             <section id="banner"
                 style={{
-                    backgroundImage: 'url(/images/banner_picture.png)',
+                    backgroundImage: 'url(./images/banner_picture.png)',
                     backgroundSize: 'cover'
                 }}>
                 <Navbar></Navbar>
                 <div className="section-inner">
                     <div className="arrows">
-                        <img src='/images/left_arrow.png'></img>
-                        <img className="right-arrow" src='/images/left_arrow.png'></img>
+                        <img src='./images/left_arrow.png'></img>
+                        <img className="right-arrow" src='./images/left_arrow.png'></img>
                     </div>
                     <div className="banner-text">
                         <h1>A segurança</h1>
